@@ -1,0 +1,2412 @@
+[
+  {
+    "year": 2026,
+    "prospects": [
+      {
+        "id": "D_2026_1",
+        "name": "Julian Leonard",
+        "age": 20,
+        "position": "PF",
+        "archetype": "Stretch Four",
+        "potential": 81,
+        "ratings": {
+          "playmaking": 64,
+          "outside_scoring": 70,
+          "inside_scoring": 69,
+          "perimeter_defense": 50,
+          "interior_defense": 53,
+          "rebounding": 56,
+          "athleticism": 56,
+          "stamina": 63
+        },
+        "overall": 61,
+        "projected_round": 2
+      },
+      {
+        "id": "D_2026_2",
+        "name": "Tyrese Splash",
+        "age": 19,
+        "position": "SF",
+        "archetype": "Point Forward",
+        "potential": 78,
+        "ratings": {
+          "playmaking": 54,
+          "outside_scoring": 68,
+          "inside_scoring": 63,
+          "perimeter_defense": 56,
+          "interior_defense": 55,
+          "rebounding": 54,
+          "athleticism": 61,
+          "stamina": 53
+        },
+        "overall": 60,
+        "projected_round": 2
+      },
+      {
+        "id": "D_2026_3",
+        "name": "LaMelo Miller",
+        "age": 19,
+        "position": "PF",
+        "archetype": "Stretch Four",
+        "potential": 85,
+        "ratings": {
+          "playmaking": 55,
+          "outside_scoring": 89,
+          "inside_scoring": 63,
+          "perimeter_defense": 62,
+          "interior_defense": 67,
+          "rebounding": 56,
+          "athleticism": 55,
+          "stamina": 63
+        },
+        "overall": 65,
+        "projected_round": 1
+      },
+      {
+        "id": "D_2026_4",
+        "name": "Arthur Herro",
+        "age": 21,
+        "position": "SF",
+        "archetype": "Point Forward",
+        "potential": 83,
+        "ratings": {
+          "playmaking": 59,
+          "outside_scoring": 69,
+          "inside_scoring": 61,
+          "perimeter_defense": 73,
+          "interior_defense": 63,
+          "rebounding": 68,
+          "athleticism": 64,
+          "stamina": 71
+        },
+        "overall": 66,
+        "projected_round": 2
+      },
+      {
+        "id": "D_2026_5",
+        "name": "Tyrese Brown",
+        "age": 19,
+        "position": "PG",
+        "archetype": "Slasher",
+        "potential": 85,
+        "ratings": {
+          "playmaking": 77,
+          "outside_scoring": 71,
+          "inside_scoring": 88,
+          "perimeter_defense": 67,
+          "interior_defense": 77,
+          "rebounding": 67,
+          "athleticism": 79,
+          "stamina": 73
+        },
+        "overall": 75,
+        "projected_round": 1
+      },
+      {
+        "id": "D_2026_6",
+        "name": "Kevin Porzingis",
+        "age": 20,
+        "position": "PF",
+        "archetype": "Post Scorer",
+        "potential": 95,
+        "ratings": {
+          "playmaking": 60,
+          "outside_scoring": 60,
+          "inside_scoring": 78,
+          "perimeter_defense": 63,
+          "interior_defense": 66,
+          "rebounding": 69,
+          "athleticism": 72,
+          "stamina": 66
+        },
+        "overall": 70,
+        "projected_round": 1
+      },
+      {
+        "id": "D_2026_7",
+        "name": "Tyler Gilgeous",
+        "age": 21,
+        "position": "C",
+        "archetype": "Stretch Center",
+        "potential": 82,
+        "ratings": {
+          "playmaking": 64,
+          "outside_scoring": 77,
+          "inside_scoring": 66,
+          "perimeter_defense": 59,
+          "interior_defense": 73,
+          "rebounding": 68,
+          "athleticism": 59,
+          "stamina": 71
+        },
+        "overall": 67,
+        "projected_round": 2
+      },
+      {
+        "id": "D_2026_8",
+        "name": "Terrence Cole",
+        "age": 19,
+        "position": "SG",
+        "archetype": "Sharpshooter",
+        "potential": 89,
+        "ratings": {
+          "playmaking": 64,
+          "outside_scoring": 87,
+          "inside_scoring": 74,
+          "perimeter_defense": 64,
+          "interior_defense": 57,
+          "rebounding": 55,
+          "athleticism": 55,
+          "stamina": 74
+        },
+        "overall": 70,
+        "projected_round": 1
+      },
+      {
+        "id": "D_2026_9",
+        "name": "Harrison Thorne",
+        "age": 19,
+        "position": "PF",
+        "archetype": "Stretch Four",
+        "potential": 93,
+        "ratings": {
+          "playmaking": 68,
+          "outside_scoring": 81,
+          "inside_scoring": 67,
+          "perimeter_defense": 55,
+          "interior_defense": 54,
+          "rebounding": 69,
+          "athleticism": 66,
+          "stamina": 67
+        },
+        "overall": 66,
+        "projected_round": 1
+      },
+      {
+        "id": "D_2026_10",
+        "name": "Stephen Brown",
+        "age": 19,
+        "position": "SF",
+        "archetype": "3-and-D Wing",
+        "potential": 75,
+        "ratings": {
+          "playmaking": 56,
+          "outside_scoring": 58,
+          "inside_scoring": 66,
+          "perimeter_defense": 78,
+          "interior_defense": 66,
+          "rebounding": 54,
+          "athleticism": 66,
+          "stamina": 47
+        },
+        "overall": 64,
+        "projected_round": 2
+      },
+      {
+        "id": "D_2026_11",
+        "name": "Al Legend",
+        "age": 19,
+        "position": "PG",
+        "archetype": "3-and-D Guard",
+        "potential": 79,
+        "ratings": {
+          "playmaking": 62,
+          "outside_scoring": 48,
+          "inside_scoring": 48,
+          "perimeter_defense": 79,
+          "interior_defense": 47,
+          "rebounding": 58,
+          "athleticism": 67,
+          "stamina": 65
+        },
+        "overall": 61,
+        "projected_round": 2
+      },
+      {
+        "id": "D_2026_12",
+        "name": "Cade Porzingis",
+        "age": 19,
+        "position": "PG",
+        "archetype": "Floor General",
+        "potential": 86,
+        "ratings": {
+          "playmaking": 89,
+          "outside_scoring": 63,
+          "inside_scoring": 57,
+          "perimeter_defense": 72,
+          "interior_defense": 76,
+          "rebounding": 57,
+          "athleticism": 70,
+          "stamina": 74
+        },
+        "overall": 75,
+        "projected_round": 1
+      },
+      {
+        "id": "D_2026_13",
+        "name": "Gordon Williamson",
+        "age": 20,
+        "position": "PG",
+        "archetype": "3-and-D Guard",
+        "potential": 80,
+        "ratings": {
+          "playmaking": 58,
+          "outside_scoring": 58,
+          "inside_scoring": 71,
+          "perimeter_defense": 80,
+          "interior_defense": 70,
+          "rebounding": 67,
+          "athleticism": 70,
+          "stamina": 57
+        },
+        "overall": 64,
+        "projected_round": 2
+      },
+      {
+        "id": "D_2026_14",
+        "name": "Anthony Ross",
+        "age": 19,
+        "position": "PG",
+        "archetype": "Slasher",
+        "potential": 76,
+        "ratings": {
+          "playmaking": 61,
+          "outside_scoring": 53,
+          "inside_scoring": 72,
+          "perimeter_defense": 65,
+          "interior_defense": 48,
+          "rebounding": 63,
+          "athleticism": 80,
+          "stamina": 60
+        },
+        "overall": 63,
+        "projected_round": 2
+      },
+      {
+        "id": "D_2026_15",
+        "name": "Preston White",
+        "age": 21,
+        "position": "SF",
+        "archetype": "Athletic Slasher",
+        "potential": 96,
+        "ratings": {
+          "playmaking": 63,
+          "outside_scoring": 57,
+          "inside_scoring": 67,
+          "perimeter_defense": 56,
+          "interior_defense": 64,
+          "rebounding": 67,
+          "athleticism": 72,
+          "stamina": 49
+        },
+        "overall": 61,
+        "projected_round": 1
+      },
+      {
+        "id": "D_2026_16",
+        "name": "Jayson James",
+        "age": 20,
+        "position": "SG",
+        "archetype": "Lockdown Wing",
+        "potential": 91,
+        "ratings": {
+          "playmaking": 75,
+          "outside_scoring": 65,
+          "inside_scoring": 63,
+          "perimeter_defense": 82,
+          "interior_defense": 79,
+          "rebounding": 79,
+          "athleticism": 72,
+          "stamina": 63
+        },
+        "overall": 72,
+        "projected_round": 1
+      },
+      {
+        "id": "D_2026_17",
+        "name": "Deandre Curry",
+        "age": 21,
+        "position": "PF",
+        "archetype": "Post Scorer",
+        "potential": 96,
+        "ratings": {
+          "playmaking": 56,
+          "outside_scoring": 68,
+          "inside_scoring": 67,
+          "perimeter_defense": 55,
+          "interior_defense": 68,
+          "rebounding": 74,
+          "athleticism": 58,
+          "stamina": 56
+        },
+        "overall": 67,
+        "projected_round": 1
+      },
+      {
+        "id": "D_2026_18",
+        "name": "Bradley Morant",
+        "age": 21,
+        "position": "C",
+        "archetype": "Stretch Center",
+        "potential": 85,
+        "ratings": {
+          "playmaking": 70,
+          "outside_scoring": 79,
+          "inside_scoring": 64,
+          "perimeter_defense": 62,
+          "interior_defense": 73,
+          "rebounding": 69,
+          "athleticism": 65,
+          "stamina": 77
+        },
+        "overall": 67,
+        "projected_round": 1
+      },
+      {
+        "id": "D_2026_19",
+        "name": "Marcus Smart",
+        "age": 20,
+        "position": "C",
+        "archetype": "Stretch Center",
+        "potential": 95,
+        "ratings": {
+          "playmaking": 49,
+          "outside_scoring": 77,
+          "inside_scoring": 58,
+          "perimeter_defense": 66,
+          "interior_defense": 67,
+          "rebounding": 52,
+          "athleticism": 55,
+          "stamina": 48
+        },
+        "overall": 57,
+        "projected_round": 1
+      },
+      {
+        "id": "D_2026_20",
+        "name": "Ja Durant",
+        "age": 19,
+        "position": "C",
+        "archetype": "Paint Protector",
+        "potential": 79,
+        "ratings": {
+          "playmaking": 71,
+          "outside_scoring": 65,
+          "inside_scoring": 54,
+          "perimeter_defense": 70,
+          "interior_defense": 73,
+          "rebounding": 59,
+          "athleticism": 67,
+          "stamina": 60
+        },
+        "overall": 60,
+        "projected_round": 2
+      },
+      {
+        "id": "D_2026_21",
+        "name": "Luka Tatum",
+        "age": 19,
+        "position": "PG",
+        "archetype": "Floor General",
+        "potential": 74,
+        "ratings": {
+          "playmaking": 84,
+          "outside_scoring": 53,
+          "inside_scoring": 54,
+          "perimeter_defense": 60,
+          "interior_defense": 64,
+          "rebounding": 61,
+          "athleticism": 51,
+          "stamina": 57
+        },
+        "overall": 66,
+        "projected_round": 2
+      },
+      {
+        "id": "D_2026_22",
+        "name": "Jrue Butler",
+        "age": 19,
+        "position": "SG",
+        "archetype": "Lockdown Wing",
+        "potential": 72,
+        "ratings": {
+          "playmaking": 64,
+          "outside_scoring": 62,
+          "inside_scoring": 49,
+          "perimeter_defense": 72,
+          "interior_defense": 63,
+          "rebounding": 55,
+          "athleticism": 67,
+          "stamina": 49
+        },
+        "overall": 64,
+        "projected_round": 2
+      },
+      {
+        "id": "D_2026_23",
+        "name": "Anthony Cole",
+        "age": 21,
+        "position": "SF",
+        "archetype": "Point Forward",
+        "potential": 89,
+        "ratings": {
+          "playmaking": 59,
+          "outside_scoring": 63,
+          "inside_scoring": 67,
+          "perimeter_defense": 65,
+          "interior_defense": 67,
+          "rebounding": 64,
+          "athleticism": 64,
+          "stamina": 54
+        },
+        "overall": 63,
+        "projected_round": 1
+      },
+      {
+        "id": "D_2026_24",
+        "name": "Stephen White",
+        "age": 19,
+        "position": "SF",
+        "archetype": "Point Forward",
+        "potential": 93,
+        "ratings": {
+          "playmaking": 53,
+          "outside_scoring": 58,
+          "inside_scoring": 61,
+          "perimeter_defense": 52,
+          "interior_defense": 51,
+          "rebounding": 67,
+          "athleticism": 51,
+          "stamina": 63
+        },
+        "overall": 56,
+        "projected_round": 1
+      },
+      {
+        "id": "D_2026_25",
+        "name": "LeBron Cunningham",
+        "age": 19,
+        "position": "SG",
+        "archetype": "Scoring Machine",
+        "potential": 83,
+        "ratings": {
+          "playmaking": 62,
+          "outside_scoring": 56,
+          "inside_scoring": 73,
+          "perimeter_defense": 56,
+          "interior_defense": 64,
+          "rebounding": 53,
+          "athleticism": 53,
+          "stamina": 53
+        },
+        "overall": 58,
+        "projected_round": 2
+      },
+      {
+        "id": "D_2026_26",
+        "name": "Jrue Green",
+        "age": 19,
+        "position": "SF",
+        "archetype": "3-and-D Wing",
+        "potential": 82,
+        "ratings": {
+          "playmaking": 60,
+          "outside_scoring": 72,
+          "inside_scoring": 61,
+          "perimeter_defense": 78,
+          "interior_defense": 75,
+          "rebounding": 71,
+          "athleticism": 76,
+          "stamina": 74
+        },
+        "overall": 70,
+        "projected_round": 2
+      },
+      {
+        "id": "D_2026_27",
+        "name": "Zach Miller",
+        "age": 19,
+        "position": "PF",
+        "archetype": "Athletic Finisher",
+        "potential": 93,
+        "ratings": {
+          "playmaking": 57,
+          "outside_scoring": 75,
+          "inside_scoring": 82,
+          "perimeter_defense": 62,
+          "interior_defense": 72,
+          "rebounding": 73,
+          "athleticism": 82,
+          "stamina": 56
+        },
+        "overall": 77,
+        "projected_round": 1
+      },
+      {
+        "id": "D_2026_28",
+        "name": "Zion Legend",
+        "age": 19,
+        "position": "PG",
+        "archetype": "Slasher",
+        "potential": 90,
+        "ratings": {
+          "playmaking": 57,
+          "outside_scoring": 58,
+          "inside_scoring": 72,
+          "perimeter_defense": 65,
+          "interior_defense": 67,
+          "rebounding": 70,
+          "athleticism": 75,
+          "stamina": 68
+        },
+        "overall": 62,
+        "projected_round": 1
+      },
+      {
+        "id": "D_2026_29",
+        "name": "Darnell Vance",
+        "age": 21,
+        "position": "PF",
+        "archetype": "Stretch Four",
+        "potential": 79,
+        "ratings": {
+          "playmaking": 55,
+          "outside_scoring": 83,
+          "inside_scoring": 63,
+          "perimeter_defense": 54,
+          "interior_defense": 59,
+          "rebounding": 60,
+          "athleticism": 54,
+          "stamina": 67
+        },
+        "overall": 63,
+        "projected_round": 2
+      },
+      {
+        "id": "D_2026_30",
+        "name": "Draymond Legend",
+        "age": 19,
+        "position": "SG",
+        "archetype": "Lockdown Wing",
+        "potential": 81,
+        "ratings": {
+          "playmaking": 62,
+          "outside_scoring": 52,
+          "inside_scoring": 61,
+          "perimeter_defense": 67,
+          "interior_defense": 57,
+          "rebounding": 53,
+          "athleticism": 66,
+          "stamina": 63
+        },
+        "overall": 60,
+        "projected_round": 2
+      },
+      {
+        "id": "D_2026_31",
+        "name": "Arthur Splash",
+        "age": 20,
+        "position": "PF",
+        "archetype": "Stretch Four",
+        "potential": 91,
+        "ratings": {
+          "playmaking": 75,
+          "outside_scoring": 78,
+          "inside_scoring": 75,
+          "perimeter_defense": 70,
+          "interior_defense": 58,
+          "rebounding": 77,
+          "athleticism": 61,
+          "stamina": 65
+        },
+        "overall": 70,
+        "projected_round": 1
+      },
+      {
+        "id": "D_2026_32",
+        "name": "Al Jordan",
+        "age": 20,
+        "position": "PF",
+        "archetype": "Post Scorer",
+        "potential": 87,
+        "ratings": {
+          "playmaking": 63,
+          "outside_scoring": 66,
+          "inside_scoring": 61,
+          "perimeter_defense": 57,
+          "interior_defense": 72,
+          "rebounding": 67,
+          "athleticism": 67,
+          "stamina": 64
+        },
+        "overall": 66,
+        "projected_round": 1
+      },
+      {
+        "id": "D_2026_33",
+        "name": "LeBron Mobley",
+        "age": 20,
+        "position": "SF",
+        "archetype": "3-and-D Wing",
+        "potential": 87,
+        "ratings": {
+          "playmaking": 76,
+          "outside_scoring": 61,
+          "inside_scoring": 61,
+          "perimeter_defense": 93,
+          "interior_defense": 69,
+          "rebounding": 75,
+          "athleticism": 66,
+          "stamina": 78
+        },
+        "overall": 73,
+        "projected_round": 1
+      },
+      {
+        "id": "D_2026_34",
+        "name": "Evan Sterling",
+        "age": 20,
+        "position": "PF",
+        "archetype": "Post Scorer",
+        "potential": 93,
+        "ratings": {
+          "playmaking": 77,
+          "outside_scoring": 77,
+          "inside_scoring": 59,
+          "perimeter_defense": 76,
+          "interior_defense": 76,
+          "rebounding": 76,
+          "athleticism": 60,
+          "stamina": 62
+        },
+        "overall": 68,
+        "projected_round": 1
+      },
+      {
+        "id": "D_2026_35",
+        "name": "Jayson Porzingis",
+        "age": 19,
+        "position": "SF",
+        "archetype": "Point Forward",
+        "potential": 73,
+        "ratings": {
+          "playmaking": 51,
+          "outside_scoring": 58,
+          "inside_scoring": 53,
+          "perimeter_defense": 57,
+          "interior_defense": 56,
+          "rebounding": 66,
+          "athleticism": 55,
+          "stamina": 50
+        },
+        "overall": 56,
+        "projected_round": 2
+      },
+      {
+        "id": "D_2026_36",
+        "name": "Al Williamson",
+        "age": 20,
+        "position": "SF",
+        "archetype": "Athletic Slasher",
+        "potential": 83,
+        "ratings": {
+          "playmaking": 57,
+          "outside_scoring": 61,
+          "inside_scoring": 71,
+          "perimeter_defense": 64,
+          "interior_defense": 56,
+          "rebounding": 49,
+          "athleticism": 78,
+          "stamina": 66
+        },
+        "overall": 63,
+        "projected_round": 2
+      },
+      {
+        "id": "D_2026_37",
+        "name": "Harrison Ross",
+        "age": 21,
+        "position": "SF",
+        "archetype": "Point Forward",
+        "potential": 77,
+        "ratings": {
+          "playmaking": 59,
+          "outside_scoring": 67,
+          "inside_scoring": 54,
+          "perimeter_defense": 54,
+          "interior_defense": 57,
+          "rebounding": 55,
+          "athleticism": 63,
+          "stamina": 65
+        },
+        "overall": 59,
+        "projected_round": 2
+      },
+      {
+        "id": "D_2026_38",
+        "name": "Preston Cunningham",
+        "age": 21,
+        "position": "SF",
+        "archetype": "Point Forward",
+        "potential": 73,
+        "ratings": {
+          "playmaking": 67,
+          "outside_scoring": 49,
+          "inside_scoring": 50,
+          "perimeter_defense": 64,
+          "interior_defense": 51,
+          "rebounding": 50,
+          "athleticism": 67,
+          "stamina": 50
+        },
+        "overall": 57,
+        "projected_round": 2
+      },
+      {
+        "id": "D_2026_39",
+        "name": "Deandre Cole",
+        "age": 21,
+        "position": "PF",
+        "archetype": "Stretch Four",
+        "potential": 87,
+        "ratings": {
+          "playmaking": 75,
+          "outside_scoring": 86,
+          "inside_scoring": 74,
+          "perimeter_defense": 61,
+          "interior_defense": 69,
+          "rebounding": 79,
+          "athleticism": 68,
+          "stamina": 63
+        },
+        "overall": 74,
+        "projected_round": 1
+      },
+      {
+        "id": "D_2026_40",
+        "name": "Tyler Antetokounmpo",
+        "age": 20,
+        "position": "SF",
+        "archetype": "3-and-D Wing",
+        "potential": 85,
+        "ratings": {
+          "playmaking": 72,
+          "outside_scoring": 74,
+          "inside_scoring": 61,
+          "perimeter_defense": 86,
+          "interior_defense": 62,
+          "rebounding": 79,
+          "athleticism": 69,
+          "stamina": 66
+        },
+        "overall": 74,
+        "projected_round": 1
+      },
+      {
+        "id": "D_2026_41",
+        "name": "Stephen Holiday",
+        "age": 19,
+        "position": "PG",
+        "archetype": "Slasher",
+        "potential": 94,
+        "ratings": {
+          "playmaking": 57,
+          "outside_scoring": 67,
+          "inside_scoring": 79,
+          "perimeter_defense": 56,
+          "interior_defense": 58,
+          "rebounding": 53,
+          "athleticism": 76,
+          "stamina": 64
+        },
+        "overall": 62,
+        "projected_round": 1
+      },
+      {
+        "id": "D_2026_42",
+        "name": "Tyrese Davis",
+        "age": 19,
+        "position": "SG",
+        "archetype": "Lockdown Wing",
+        "potential": 78,
+        "ratings": {
+          "playmaking": 50,
+          "outside_scoring": 49,
+          "inside_scoring": 51,
+          "perimeter_defense": 75,
+          "interior_defense": 55,
+          "rebounding": 54,
+          "athleticism": 53,
+          "stamina": 62
+        },
+        "overall": 56,
+        "projected_round": 2
+      },
+      {
+        "id": "D_2026_43",
+        "name": "Devin Legend",
+        "age": 19,
+        "position": "SF",
+        "archetype": "Athletic Slasher",
+        "potential": 78,
+        "ratings": {
+          "playmaking": 56,
+          "outside_scoring": 51,
+          "inside_scoring": 79,
+          "perimeter_defense": 57,
+          "interior_defense": 66,
+          "rebounding": 65,
+          "athleticism": 82,
+          "stamina": 62
+        },
+        "overall": 61,
+        "projected_round": 2
+      },
+      {
+        "id": "D_2026_44",
+        "name": "Klay Fox",
+        "age": 20,
+        "position": "PF",
+        "archetype": "Stretch Four",
+        "potential": 96,
+        "ratings": {
+          "playmaking": 73,
+          "outside_scoring": 76,
+          "inside_scoring": 68,
+          "perimeter_defense": 64,
+          "interior_defense": 72,
+          "rebounding": 59,
+          "athleticism": 56,
+          "stamina": 64
+        },
+        "overall": 66,
+        "projected_round": 1
+      },
+      {
+        "id": "D_2026_45",
+        "name": "Derrick Adebayo",
+        "age": 20,
+        "position": "SF",
+        "archetype": "Athletic Slasher",
+        "potential": 95,
+        "ratings": {
+          "playmaking": 57,
+          "outside_scoring": 70,
+          "inside_scoring": 79,
+          "perimeter_defense": 74,
+          "interior_defense": 58,
+          "rebounding": 65,
+          "athleticism": 86,
+          "stamina": 73
+        },
+        "overall": 71,
+        "projected_round": 1
+      },
+      {
+        "id": "D_2026_46",
+        "name": "Terrence Legend",
+        "age": 20,
+        "position": "SF",
+        "archetype": "Athletic Slasher",
+        "potential": 88,
+        "ratings": {
+          "playmaking": 54,
+          "outside_scoring": 52,
+          "inside_scoring": 80,
+          "perimeter_defense": 61,
+          "interior_defense": 54,
+          "rebounding": 58,
+          "athleticism": 71,
+          "stamina": 51
+        },
+        "overall": 61,
+        "projected_round": 1
+      },
+      {
+        "id": "D_2026_47",
+        "name": "Elijah Barnes",
+        "age": 20,
+        "position": "PG",
+        "archetype": "3-and-D Guard",
+        "potential": 91,
+        "ratings": {
+          "playmaking": 69,
+          "outside_scoring": 64,
+          "inside_scoring": 67,
+          "perimeter_defense": 85,
+          "interior_defense": 61,
+          "rebounding": 77,
+          "athleticism": 70,
+          "stamina": 66
+        },
+        "overall": 71,
+        "projected_round": 1
+      },
+      {
+        "id": "D_2026_48",
+        "name": "Devin Tatum",
+        "age": 21,
+        "position": "PG",
+        "archetype": "Slasher",
+        "potential": 93,
+        "ratings": {
+          "playmaking": 69,
+          "outside_scoring": 56,
+          "inside_scoring": 78,
+          "perimeter_defense": 51,
+          "interior_defense": 65,
+          "rebounding": 67,
+          "athleticism": 74,
+          "stamina": 61
+        },
+        "overall": 64,
+        "projected_round": 1
+      },
+      {
+        "id": "D_2026_49",
+        "name": "Jonas Porzingis",
+        "age": 19,
+        "position": "SF",
+        "archetype": "Athletic Slasher",
+        "potential": 77,
+        "ratings": {
+          "playmaking": 69,
+          "outside_scoring": 54,
+          "inside_scoring": 73,
+          "perimeter_defense": 62,
+          "interior_defense": 56,
+          "rebounding": 56,
+          "athleticism": 73,
+          "stamina": 52
+        },
+        "overall": 63,
+        "projected_round": 2
+      },
+      {
+        "id": "D_2026_50",
+        "name": "De'Aaron Sterling",
+        "age": 19,
+        "position": "C",
+        "archetype": "Paint Protector",
+        "potential": 92,
+        "ratings": {
+          "playmaking": 74,
+          "outside_scoring": 73,
+          "inside_scoring": 74,
+          "perimeter_defense": 65,
+          "interior_defense": 87,
+          "rebounding": 68,
+          "athleticism": 76,
+          "stamina": 73
+        },
+        "overall": 75,
+        "projected_round": 1
+      },
+      {
+        "id": "D_2026_51",
+        "name": "Lonzo Curry",
+        "age": 19,
+        "position": "PF",
+        "archetype": "Athletic Finisher",
+        "potential": 91,
+        "ratings": {
+          "playmaking": 58,
+          "outside_scoring": 70,
+          "inside_scoring": 83,
+          "perimeter_defense": 75,
+          "interior_defense": 77,
+          "rebounding": 59,
+          "athleticism": 84,
+          "stamina": 61
+        },
+        "overall": 75,
+        "projected_round": 1
+      },
+      {
+        "id": "D_2026_52",
+        "name": "Kawhi Miller",
+        "age": 20,
+        "position": "PF",
+        "archetype": "Athletic Finisher",
+        "potential": 80,
+        "ratings": {
+          "playmaking": 60,
+          "outside_scoring": 68,
+          "inside_scoring": 89,
+          "perimeter_defense": 57,
+          "interior_defense": 69,
+          "rebounding": 70,
+          "athleticism": 81,
+          "stamina": 72
+        },
+        "overall": 76,
+        "projected_round": 2
+      },
+      {
+        "id": "D_2026_53",
+        "name": "Jrue Tatum",
+        "age": 21,
+        "position": "C",
+        "archetype": "Stretch Center",
+        "potential": 81,
+        "ratings": {
+          "playmaking": 65,
+          "outside_scoring": 85,
+          "inside_scoring": 74,
+          "perimeter_defense": 61,
+          "interior_defense": 63,
+          "rebounding": 65,
+          "athleticism": 72,
+          "stamina": 58
+        },
+        "overall": 68,
+        "projected_round": 2
+      },
+      {
+        "id": "D_2026_54",
+        "name": "Giannis Durant",
+        "age": 21,
+        "position": "C",
+        "archetype": "Rebound Machine",
+        "potential": 82,
+        "ratings": {
+          "playmaking": 70,
+          "outside_scoring": 63,
+          "inside_scoring": 58,
+          "perimeter_defense": 70,
+          "interior_defense": 63,
+          "rebounding": 78,
+          "athleticism": 58,
+          "stamina": 65
+        },
+        "overall": 65,
+        "projected_round": 2
+      },
+      {
+        "id": "D_2026_55",
+        "name": "Anthony Williamson",
+        "age": 19,
+        "position": "PG",
+        "archetype": "Floor General",
+        "potential": 95,
+        "ratings": {
+          "playmaking": 82,
+          "outside_scoring": 52,
+          "inside_scoring": 52,
+          "perimeter_defense": 64,
+          "interior_defense": 60,
+          "rebounding": 64,
+          "athleticism": 52,
+          "stamina": 69
+        },
+        "overall": 66,
+        "projected_round": 1
+      },
+      {
+        "id": "D_2026_56",
+        "name": "Russell Herro",
+        "age": 19,
+        "position": "PF",
+        "archetype": "Post Scorer",
+        "potential": 89,
+        "ratings": {
+          "playmaking": 66,
+          "outside_scoring": 62,
+          "inside_scoring": 67,
+          "perimeter_defense": 54,
+          "interior_defense": 55,
+          "rebounding": 55,
+          "athleticism": 74,
+          "stamina": 69
+        },
+        "overall": 62,
+        "projected_round": 1
+      },
+      {
+        "id": "D_2026_57",
+        "name": "Bam Barnes",
+        "age": 21,
+        "position": "SF",
+        "archetype": "3-and-D Wing",
+        "potential": 85,
+        "ratings": {
+          "playmaking": 54,
+          "outside_scoring": 55,
+          "inside_scoring": 54,
+          "perimeter_defense": 80,
+          "interior_defense": 57,
+          "rebounding": 55,
+          "athleticism": 65,
+          "stamina": 52
+        },
+        "overall": 61,
+        "projected_round": 1
+      },
+      {
+        "id": "D_2026_58",
+        "name": "Domantas Barnes",
+        "age": 19,
+        "position": "C",
+        "archetype": "Stretch Center",
+        "potential": 88,
+        "ratings": {
+          "playmaking": 64,
+          "outside_scoring": 77,
+          "inside_scoring": 65,
+          "perimeter_defense": 52,
+          "interior_defense": 62,
+          "rebounding": 63,
+          "athleticism": 64,
+          "stamina": 63
+        },
+        "overall": 63,
+        "projected_round": 1
+      },
+      {
+        "id": "D_2026_59",
+        "name": "Jimmy Brown",
+        "age": 21,
+        "position": "C",
+        "archetype": "Paint Protector",
+        "potential": 83,
+        "ratings": {
+          "playmaking": 72,
+          "outside_scoring": 74,
+          "inside_scoring": 62,
+          "perimeter_defense": 65,
+          "interior_defense": 80,
+          "rebounding": 63,
+          "athleticism": 62,
+          "stamina": 76
+        },
+        "overall": 65,
+        "projected_round": 2
+      },
+      {
+        "id": "D_2026_60",
+        "name": "Damian Thorne",
+        "age": 19,
+        "position": "C",
+        "archetype": "Stretch Center",
+        "potential": 78,
+        "ratings": {
+          "playmaking": 50,
+          "outside_scoring": 70,
+          "inside_scoring": 54,
+          "perimeter_defense": 58,
+          "interior_defense": 63,
+          "rebounding": 59,
+          "athleticism": 62,
+          "stamina": 66
+        },
+        "overall": 58,
+        "projected_round": 2
+      }
+    ]
+  },
+  {
+    "year": 2027,
+    "prospects": [
+      {
+        "id": "D_2027_1",
+        "name": "Klay Finch",
+        "age": 20,
+        "position": "PF",
+        "archetype": "Athletic Finisher",
+        "potential": 85,
+        "ratings": {
+          "playmaking": 61,
+          "outside_scoring": 63,
+          "inside_scoring": 89,
+          "perimeter_defense": 66,
+          "interior_defense": 62,
+          "rebounding": 74,
+          "athleticism": 91,
+          "stamina": 64
+        },
+        "overall": 77,
+        "projected_round": 1
+      },
+      {
+        "id": "D_2027_2",
+        "name": "Zach Russo",
+        "age": 21,
+        "position": "PG",
+        "archetype": "Floor General",
+        "potential": 86,
+        "ratings": {
+          "playmaking": 88,
+          "outside_scoring": 62,
+          "inside_scoring": 60,
+          "perimeter_defense": 67,
+          "interior_defense": 57,
+          "rebounding": 73,
+          "athleticism": 56,
+          "stamina": 67
+        },
+        "overall": 72,
+        "projected_round": 1
+      },
+      {
+        "id": "D_2027_3",
+        "name": "Zach Morant",
+        "age": 21,
+        "position": "C",
+        "archetype": "Stretch Center",
+        "potential": 74,
+        "ratings": {
+          "playmaking": 53,
+          "outside_scoring": 81,
+          "inside_scoring": 61,
+          "perimeter_defense": 59,
+          "interior_defense": 65,
+          "rebounding": 48,
+          "athleticism": 66,
+          "stamina": 55
+        },
+        "overall": 58,
+        "projected_round": 2
+      },
+      {
+        "id": "D_2027_4",
+        "name": "Luka Porzingis",
+        "age": 19,
+        "position": "PF",
+        "archetype": "Stretch Four",
+        "potential": 91,
+        "ratings": {
+          "playmaking": 54,
+          "outside_scoring": 74,
+          "inside_scoring": 65,
+          "perimeter_defense": 53,
+          "interior_defense": 67,
+          "rebounding": 66,
+          "athleticism": 65,
+          "stamina": 65
+        },
+        "overall": 66,
+        "projected_round": 1
+      },
+      {
+        "id": "D_2027_5",
+        "name": "Tyler Horford",
+        "age": 21,
+        "position": "C",
+        "archetype": "Stretch Center",
+        "potential": 95,
+        "ratings": {
+          "playmaking": 53,
+          "outside_scoring": 81,
+          "inside_scoring": 63,
+          "perimeter_defense": 71,
+          "interior_defense": 71,
+          "rebounding": 61,
+          "athleticism": 66,
+          "stamina": 71
+        },
+        "overall": 64,
+        "projected_round": 1
+      },
+      {
+        "id": "D_2027_6",
+        "name": "Brandon Doncic",
+        "age": 21,
+        "position": "SF",
+        "archetype": "3-and-D Wing",
+        "potential": 74,
+        "ratings": {
+          "playmaking": 57,
+          "outside_scoring": 66,
+          "inside_scoring": 69,
+          "perimeter_defense": 77,
+          "interior_defense": 67,
+          "rebounding": 51,
+          "athleticism": 51,
+          "stamina": 65
+        },
+        "overall": 64,
+        "projected_round": 2
+      },
+      {
+        "id": "D_2027_7",
+        "name": "Kyrie Tatum",
+        "age": 20,
+        "position": "SG",
+        "archetype": "Sharpshooter",
+        "potential": 86,
+        "ratings": {
+          "playmaking": 60,
+          "outside_scoring": 83,
+          "inside_scoring": 63,
+          "perimeter_defense": 68,
+          "interior_defense": 77,
+          "rebounding": 64,
+          "athleticism": 64,
+          "stamina": 62
+        },
+        "overall": 69,
+        "projected_round": 1
+      },
+      {
+        "id": "D_2027_8",
+        "name": "Russell Sterling",
+        "age": 19,
+        "position": "SG",
+        "archetype": "Lockdown Wing",
+        "potential": 96,
+        "ratings": {
+          "playmaking": 69,
+          "outside_scoring": 60,
+          "inside_scoring": 61,
+          "perimeter_defense": 83,
+          "interior_defense": 56,
+          "rebounding": 59,
+          "athleticism": 49,
+          "stamina": 58
+        },
+        "overall": 66,
+        "projected_round": 1
+      },
+      {
+        "id": "D_2027_9",
+        "name": "Deandre Splash",
+        "age": 20,
+        "position": "PF",
+        "archetype": "Athletic Finisher",
+        "potential": 89,
+        "ratings": {
+          "playmaking": 52,
+          "outside_scoring": 65,
+          "inside_scoring": 69,
+          "perimeter_defense": 49,
+          "interior_defense": 56,
+          "rebounding": 58,
+          "athleticism": 79,
+          "stamina": 63
+        },
+        "overall": 65,
+        "projected_round": 1
+      },
+      {
+        "id": "D_2027_10",
+        "name": "Derrick Embiid",
+        "age": 20,
+        "position": "PF",
+        "archetype": "Post Scorer",
+        "potential": 77,
+        "ratings": {
+          "playmaking": 66,
+          "outside_scoring": 54,
+          "inside_scoring": 51,
+          "perimeter_defense": 62,
+          "interior_defense": 54,
+          "rebounding": 62,
+          "athleticism": 56,
+          "stamina": 62
+        },
+        "overall": 55,
+        "projected_round": 2
+      },
+      {
+        "id": "D_2027_11",
+        "name": "Jayson Leonard",
+        "age": 21,
+        "position": "SG",
+        "archetype": "Lockdown Wing",
+        "potential": 92,
+        "ratings": {
+          "playmaking": 72,
+          "outside_scoring": 61,
+          "inside_scoring": 69,
+          "perimeter_defense": 80,
+          "interior_defense": 63,
+          "rebounding": 71,
+          "athleticism": 61,
+          "stamina": 57
+        },
+        "overall": 68,
+        "projected_round": 1
+      },
+      {
+        "id": "D_2027_12",
+        "name": "Marcus Mobley",
+        "age": 21,
+        "position": "PG",
+        "archetype": "3-and-D Guard",
+        "potential": 93,
+        "ratings": {
+          "playmaking": 68,
+          "outside_scoring": 76,
+          "inside_scoring": 69,
+          "perimeter_defense": 92,
+          "interior_defense": 62,
+          "rebounding": 64,
+          "athleticism": 64,
+          "stamina": 68
+        },
+        "overall": 74,
+        "projected_round": 1
+      },
+      {
+        "id": "D_2027_13",
+        "name": "Kawhi Beal",
+        "age": 20,
+        "position": "C",
+        "archetype": "Paint Protector",
+        "potential": 88,
+        "ratings": {
+          "playmaking": 72,
+          "outside_scoring": 55,
+          "inside_scoring": 63,
+          "perimeter_defense": 62,
+          "interior_defense": 81,
+          "rebounding": 60,
+          "athleticism": 69,
+          "stamina": 69
+        },
+        "overall": 66,
+        "projected_round": 1
+      },
+      {
+        "id": "D_2027_14",
+        "name": "Anthony Butler",
+        "age": 20,
+        "position": "C",
+        "archetype": "Rebound Machine",
+        "potential": 86,
+        "ratings": {
+          "playmaking": 71,
+          "outside_scoring": 56,
+          "inside_scoring": 63,
+          "perimeter_defense": 70,
+          "interior_defense": 69,
+          "rebounding": 73,
+          "athleticism": 55,
+          "stamina": 58
+        },
+        "overall": 66,
+        "projected_round": 1
+      },
+      {
+        "id": "D_2027_15",
+        "name": "Jimmy Finch",
+        "age": 19,
+        "position": "C",
+        "archetype": "Paint Protector",
+        "potential": 91,
+        "ratings": {
+          "playmaking": 53,
+          "outside_scoring": 64,
+          "inside_scoring": 73,
+          "perimeter_defense": 66,
+          "interior_defense": 86,
+          "rebounding": 67,
+          "athleticism": 70,
+          "stamina": 56
+        },
+        "overall": 73,
+        "projected_round": 1
+      },
+      {
+        "id": "D_2027_16",
+        "name": "Scottie Doncic",
+        "age": 20,
+        "position": "PF",
+        "archetype": "Post Scorer",
+        "potential": 93,
+        "ratings": {
+          "playmaking": 56,
+          "outside_scoring": 67,
+          "inside_scoring": 48,
+          "perimeter_defense": 65,
+          "interior_defense": 48,
+          "rebounding": 53,
+          "athleticism": 56,
+          "stamina": 60
+        },
+        "overall": 53,
+        "projected_round": 1
+      },
+      {
+        "id": "D_2027_17",
+        "name": "Kevin Russo",
+        "age": 21,
+        "position": "PF",
+        "archetype": "Athletic Finisher",
+        "potential": 89,
+        "ratings": {
+          "playmaking": 56,
+          "outside_scoring": 57,
+          "inside_scoring": 70,
+          "perimeter_defense": 68,
+          "interior_defense": 50,
+          "rebounding": 60,
+          "athleticism": 68,
+          "stamina": 60
+        },
+        "overall": 61,
+        "projected_round": 1
+      },
+      {
+        "id": "D_2027_18",
+        "name": "Shai Mobley",
+        "age": 21,
+        "position": "SG",
+        "archetype": "Scoring Machine",
+        "potential": 79,
+        "ratings": {
+          "playmaking": 72,
+          "outside_scoring": 62,
+          "inside_scoring": 63,
+          "perimeter_defense": 56,
+          "interior_defense": 70,
+          "rebounding": 57,
+          "athleticism": 60,
+          "stamina": 65
+        },
+        "overall": 62,
+        "projected_round": 2
+      },
+      {
+        "id": "D_2027_19",
+        "name": "Devin Legend",
+        "age": 19,
+        "position": "SF",
+        "archetype": "3-and-D Wing",
+        "potential": 75,
+        "ratings": {
+          "playmaking": 65,
+          "outside_scoring": 64,
+          "inside_scoring": 64,
+          "perimeter_defense": 74,
+          "interior_defense": 56,
+          "rebounding": 64,
+          "athleticism": 52,
+          "stamina": 58
+        },
+        "overall": 65,
+        "projected_round": 2
+      },
+      {
+        "id": "D_2027_20",
+        "name": "Scottie Beal",
+        "age": 21,
+        "position": "PG",
+        "archetype": "3-and-D Guard",
+        "potential": 85,
+        "ratings": {
+          "playmaking": 50,
+          "outside_scoring": 69,
+          "inside_scoring": 54,
+          "perimeter_defense": 71,
+          "interior_defense": 57,
+          "rebounding": 56,
+          "athleticism": 61,
+          "stamina": 68
+        },
+        "overall": 59,
+        "projected_round": 1
+      },
+      {
+        "id": "D_2027_21",
+        "name": "Al White",
+        "age": 20,
+        "position": "SG",
+        "archetype": "Scoring Machine",
+        "potential": 78,
+        "ratings": {
+          "playmaking": 57,
+          "outside_scoring": 62,
+          "inside_scoring": 53,
+          "perimeter_defense": 65,
+          "interior_defense": 56,
+          "rebounding": 66,
+          "athleticism": 53,
+          "stamina": 67
+        },
+        "overall": 59,
+        "projected_round": 2
+      },
+      {
+        "id": "D_2027_22",
+        "name": "Jayson Cole",
+        "age": 19,
+        "position": "SF",
+        "archetype": "Point Forward",
+        "potential": 89,
+        "ratings": {
+          "playmaking": 61,
+          "outside_scoring": 66,
+          "inside_scoring": 68,
+          "perimeter_defense": 74,
+          "interior_defense": 70,
+          "rebounding": 64,
+          "athleticism": 72,
+          "stamina": 65
+        },
+        "overall": 67,
+        "projected_round": 1
+      },
+      {
+        "id": "D_2027_23",
+        "name": "Ja Holiday",
+        "age": 21,
+        "position": "C",
+        "archetype": "Stretch Center",
+        "potential": 84,
+        "ratings": {
+          "playmaking": 68,
+          "outside_scoring": 89,
+          "inside_scoring": 58,
+          "perimeter_defense": 68,
+          "interior_defense": 75,
+          "rebounding": 68,
+          "athleticism": 57,
+          "stamina": 74
+        },
+        "overall": 64,
+        "projected_round": 1
+      },
+      {
+        "id": "D_2027_24",
+        "name": "Luka Green",
+        "age": 19,
+        "position": "PG",
+        "archetype": "3-and-D Guard",
+        "potential": 86,
+        "ratings": {
+          "playmaking": 63,
+          "outside_scoring": 65,
+          "inside_scoring": 57,
+          "perimeter_defense": 78,
+          "interior_defense": 55,
+          "rebounding": 55,
+          "athleticism": 69,
+          "stamina": 60
+        },
+        "overall": 66,
+        "projected_round": 1
+      },
+      {
+        "id": "D_2027_25",
+        "name": "Devin Smart",
+        "age": 21,
+        "position": "SG",
+        "archetype": "Lockdown Wing",
+        "potential": 92,
+        "ratings": {
+          "playmaking": 74,
+          "outside_scoring": 75,
+          "inside_scoring": 64,
+          "perimeter_defense": 81,
+          "interior_defense": 78,
+          "rebounding": 74,
+          "athleticism": 61,
+          "stamina": 71
+        },
+        "overall": 73,
+        "projected_round": 1
+      },
+      {
+        "id": "D_2027_26",
+        "name": "Jaylen Thorne",
+        "age": 19,
+        "position": "PG",
+        "archetype": "3-and-D Guard",
+        "potential": 76,
+        "ratings": {
+          "playmaking": 69,
+          "outside_scoring": 67,
+          "inside_scoring": 56,
+          "perimeter_defense": 80,
+          "interior_defense": 56,
+          "rebounding": 65,
+          "athleticism": 63,
+          "stamina": 61
+        },
+        "overall": 68,
+        "projected_round": 2
+      },
+      {
+        "id": "D_2027_27",
+        "name": "Scottie Barnes",
+        "age": 21,
+        "position": "PF",
+        "archetype": "Stretch Four",
+        "potential": 85,
+        "ratings": {
+          "playmaking": 51,
+          "outside_scoring": 81,
+          "inside_scoring": 62,
+          "perimeter_defense": 64,
+          "interior_defense": 63,
+          "rebounding": 53,
+          "athleticism": 60,
+          "stamina": 66
+        },
+        "overall": 62,
+        "projected_round": 1
+      },
+      {
+        "id": "D_2027_28",
+        "name": "Klay Horford",
+        "age": 20,
+        "position": "SF",
+        "archetype": "Athletic Slasher",
+        "potential": 92,
+        "ratings": {
+          "playmaking": 73,
+          "outside_scoring": 66,
+          "inside_scoring": 89,
+          "perimeter_defense": 63,
+          "interior_defense": 64,
+          "rebounding": 65,
+          "athleticism": 83,
+          "stamina": 57
+        },
+        "overall": 71,
+        "projected_round": 1
+      },
+      {
+        "id": "D_2027_29",
+        "name": "Russell Beal",
+        "age": 19,
+        "position": "SG",
+        "archetype": "Sharpshooter",
+        "potential": 94,
+        "ratings": {
+          "playmaking": 55,
+          "outside_scoring": 79,
+          "inside_scoring": 63,
+          "perimeter_defense": 58,
+          "interior_defense": 64,
+          "rebounding": 58,
+          "athleticism": 55,
+          "stamina": 61
+        },
+        "overall": 63,
+        "projected_round": 1
+      },
+      {
+        "id": "D_2027_30",
+        "name": "De'Aaron Durant",
+        "age": 21,
+        "position": "SG",
+        "archetype": "Lockdown Wing",
+        "potential": 81,
+        "ratings": {
+          "playmaking": 69,
+          "outside_scoring": 59,
+          "inside_scoring": 75,
+          "perimeter_defense": 79,
+          "interior_defense": 70,
+          "rebounding": 61,
+          "athleticism": 69,
+          "stamina": 67
+        },
+        "overall": 69,
+        "projected_round": 2
+      },
+      {
+        "id": "D_2027_31",
+        "name": "Anthony Vance",
+        "age": 21,
+        "position": "SF",
+        "archetype": "Athletic Slasher",
+        "potential": 95,
+        "ratings": {
+          "playmaking": 72,
+          "outside_scoring": 69,
+          "inside_scoring": 77,
+          "perimeter_defense": 72,
+          "interior_defense": 52,
+          "rebounding": 59,
+          "athleticism": 86,
+          "stamina": 61
+        },
+        "overall": 72,
+        "projected_round": 1
+      },
+      {
+        "id": "D_2027_32",
+        "name": "LaMelo Jokic",
+        "age": 20,
+        "position": "PG",
+        "archetype": "Floor General",
+        "potential": 89,
+        "ratings": {
+          "playmaking": 83,
+          "outside_scoring": 62,
+          "inside_scoring": 75,
+          "perimeter_defense": 63,
+          "interior_defense": 59,
+          "rebounding": 75,
+          "athleticism": 72,
+          "stamina": 74
+        },
+        "overall": 72,
+        "projected_round": 1
+      },
+      {
+        "id": "D_2027_33",
+        "name": "Arthur Haliburton",
+        "age": 20,
+        "position": "PG",
+        "archetype": "Slasher",
+        "potential": 89,
+        "ratings": {
+          "playmaking": 62,
+          "outside_scoring": 59,
+          "inside_scoring": 68,
+          "perimeter_defense": 55,
+          "interior_defense": 57,
+          "rebounding": 50,
+          "athleticism": 76,
+          "stamina": 58
+        },
+        "overall": 62,
+        "projected_round": 1
+      },
+      {
+        "id": "D_2027_34",
+        "name": "Marcus Legend",
+        "age": 19,
+        "position": "SF",
+        "archetype": "Point Forward",
+        "potential": 86,
+        "ratings": {
+          "playmaking": 55,
+          "outside_scoring": 61,
+          "inside_scoring": 62,
+          "perimeter_defense": 63,
+          "interior_defense": 55,
+          "rebounding": 56,
+          "athleticism": 65,
+          "stamina": 74
+        },
+        "overall": 60,
+        "projected_round": 1
+      },
+      {
+        "id": "D_2027_35",
+        "name": "Bam Durant",
+        "age": 19,
+        "position": "SF",
+        "archetype": "Athletic Slasher",
+        "potential": 95,
+        "ratings": {
+          "playmaking": 63,
+          "outside_scoring": 56,
+          "inside_scoring": 85,
+          "perimeter_defense": 57,
+          "interior_defense": 64,
+          "rebounding": 73,
+          "athleticism": 78,
+          "stamina": 55
+        },
+        "overall": 65,
+        "projected_round": 1
+      },
+      {
+        "id": "D_2027_36",
+        "name": "Kristaps Brown",
+        "age": 21,
+        "position": "C",
+        "archetype": "Paint Protector",
+        "potential": 95,
+        "ratings": {
+          "playmaking": 73,
+          "outside_scoring": 58,
+          "inside_scoring": 67,
+          "perimeter_defense": 71,
+          "interior_defense": 78,
+          "rebounding": 58,
+          "athleticism": 69,
+          "stamina": 72
+        },
+        "overall": 66,
+        "projected_round": 1
+      },
+      {
+        "id": "D_2027_37",
+        "name": "Jimmy Beal",
+        "age": 21,
+        "position": "SF",
+        "archetype": "Point Forward",
+        "potential": 70,
+        "ratings": {
+          "playmaking": 47,
+          "outside_scoring": 51,
+          "inside_scoring": 49,
+          "perimeter_defense": 61,
+          "interior_defense": 52,
+          "rebounding": 67,
+          "athleticism": 64,
+          "stamina": 48
+        },
+        "overall": 55,
+        "projected_round": 2
+      },
+      {
+        "id": "D_2027_38",
+        "name": "De'Aaron Brown",
+        "age": 21,
+        "position": "C",
+        "archetype": "Rebound Machine",
+        "potential": 88,
+        "ratings": {
+          "playmaking": 67,
+          "outside_scoring": 61,
+          "inside_scoring": 71,
+          "perimeter_defense": 70,
+          "interior_defense": 72,
+          "rebounding": 82,
+          "athleticism": 66,
+          "stamina": 52
+        },
+        "overall": 74,
+        "projected_round": 1
+      },
+      {
+        "id": "D_2027_39",
+        "name": "Joel Leonard",
+        "age": 19,
+        "position": "SG",
+        "archetype": "Sharpshooter",
+        "potential": 89,
+        "ratings": {
+          "playmaking": 73,
+          "outside_scoring": 80,
+          "inside_scoring": 62,
+          "perimeter_defense": 59,
+          "interior_defense": 67,
+          "rebounding": 65,
+          "athleticism": 61,
+          "stamina": 70
+        },
+        "overall": 68,
+        "projected_round": 1
+      },
+      {
+        "id": "D_2027_40",
+        "name": "Harrison Sterling",
+        "age": 21,
+        "position": "PG",
+        "archetype": "Slasher",
+        "potential": 75,
+        "ratings": {
+          "playmaking": 57,
+          "outside_scoring": 51,
+          "inside_scoring": 81,
+          "perimeter_defense": 67,
+          "interior_defense": 47,
+          "rebounding": 66,
+          "athleticism": 80,
+          "stamina": 57
+        },
+        "overall": 62,
+        "projected_round": 2
+      },
+      {
+        "id": "D_2027_41",
+        "name": "Kawhi Miller",
+        "age": 21,
+        "position": "PF",
+        "archetype": "Stretch Four",
+        "potential": 91,
+        "ratings": {
+          "playmaking": 62,
+          "outside_scoring": 81,
+          "inside_scoring": 73,
+          "perimeter_defense": 76,
+          "interior_defense": 60,
+          "rebounding": 61,
+          "athleticism": 66,
+          "stamina": 69
+        },
+        "overall": 68,
+        "projected_round": 1
+      },
+      {
+        "id": "D_2027_42",
+        "name": "Al Morant",
+        "age": 20,
+        "position": "SG",
+        "archetype": "Scoring Machine",
+        "potential": 79,
+        "ratings": {
+          "playmaking": 59,
+          "outside_scoring": 55,
+          "inside_scoring": 56,
+          "perimeter_defense": 69,
+          "interior_defense": 69,
+          "rebounding": 72,
+          "athleticism": 53,
+          "stamina": 55
+        },
+        "overall": 59,
+        "projected_round": 2
+      },
+      {
+        "id": "D_2027_43",
+        "name": "Evan Davis",
+        "age": 19,
+        "position": "PG",
+        "archetype": "Slasher",
+        "potential": 80,
+        "ratings": {
+          "playmaking": 52,
+          "outside_scoring": 51,
+          "inside_scoring": 80,
+          "perimeter_defense": 63,
+          "interior_defense": 55,
+          "rebounding": 62,
+          "athleticism": 75,
+          "stamina": 67
+        },
+        "overall": 59,
+        "projected_round": 2
+      },
+      {
+        "id": "D_2027_44",
+        "name": "Arthur Haliburton",
+        "age": 20,
+        "position": "SG",
+        "archetype": "Lockdown Wing",
+        "potential": 96,
+        "ratings": {
+          "playmaking": 64,
+          "outside_scoring": 69,
+          "inside_scoring": 70,
+          "perimeter_defense": 82,
+          "interior_defense": 73,
+          "rebounding": 67,
+          "athleticism": 74,
+          "stamina": 71
+        },
+        "overall": 72,
+        "projected_round": 1
+      },
+      {
+        "id": "D_2027_45",
+        "name": "Devin Curry",
+        "age": 19,
+        "position": "SF",
+        "archetype": "3-and-D Wing",
+        "potential": 79,
+        "ratings": {
+          "playmaking": 57,
+          "outside_scoring": 72,
+          "inside_scoring": 54,
+          "perimeter_defense": 78,
+          "interior_defense": 69,
+          "rebounding": 73,
+          "athleticism": 54,
+          "stamina": 72
+        },
+        "overall": 66,
+        "projected_round": 2
+      },
+      {
+        "id": "D_2027_46",
+        "name": "Preston Gilgeous",
+        "age": 21,
+        "position": "C",
+        "archetype": "Rebound Machine",
+        "potential": 87,
+        "ratings": {
+          "playmaking": 70,
+          "outside_scoring": 72,
+          "inside_scoring": 67,
+          "perimeter_defense": 62,
+          "interior_defense": 62,
+          "rebounding": 83,
+          "athleticism": 61,
+          "stamina": 69
+        },
+        "overall": 70,
+        "projected_round": 1
+      },
+      {
+        "id": "D_2027_47",
+        "name": "Scottie Porzingis",
+        "age": 21,
+        "position": "PG",
+        "archetype": "Floor General",
+        "potential": 93,
+        "ratings": {
+          "playmaking": 75,
+          "outside_scoring": 53,
+          "inside_scoring": 60,
+          "perimeter_defense": 66,
+          "interior_defense": 49,
+          "rebounding": 65,
+          "athleticism": 64,
+          "stamina": 62
+        },
+        "overall": 66,
+        "projected_round": 1
+      },
+      {
+        "id": "D_2027_48",
+        "name": "Anthony Beal",
+        "age": 20,
+        "position": "SF",
+        "archetype": "Athletic Slasher",
+        "potential": 85,
+        "ratings": {
+          "playmaking": 55,
+          "outside_scoring": 56,
+          "inside_scoring": 81,
+          "perimeter_defense": 47,
+          "interior_defense": 60,
+          "rebounding": 50,
+          "athleticism": 79,
+          "stamina": 52
+        },
+        "overall": 59,
+        "projected_round": 1
+      },
+      {
+        "id": "D_2027_49",
+        "name": "Domantas Beal",
+        "age": 21,
+        "position": "C",
+        "archetype": "Paint Protector",
+        "potential": 82,
+        "ratings": {
+          "playmaking": 68,
+          "outside_scoring": 59,
+          "inside_scoring": 67,
+          "perimeter_defense": 65,
+          "interior_defense": 82,
+          "rebounding": 57,
+          "athleticism": 63,
+          "stamina": 65
+        },
+        "overall": 66,
+        "projected_round": 2
+      },
+      {
+        "id": "D_2027_50",
+        "name": "Stephen Westbrook",
+        "age": 20,
+        "position": "SF",
+        "archetype": "Athletic Slasher",
+        "potential": 94,
+        "ratings": {
+          "playmaking": 55,
+          "outside_scoring": 64,
+          "inside_scoring": 74,
+          "perimeter_defense": 61,
+          "interior_defense": 57,
+          "rebounding": 58,
+          "athleticism": 81,
+          "stamina": 50
+        },
+        "overall": 64,
+        "projected_round": 1
+      },
+      {
+        "id": "D_2027_51",
+        "name": "Preston Ball",
+        "age": 19,
+        "position": "SF",
+        "archetype": "Athletic Slasher",
+        "potential": 85,
+        "ratings": {
+          "playmaking": 78,
+          "outside_scoring": 64,
+          "inside_scoring": 90,
+          "perimeter_defense": 71,
+          "interior_defense": 66,
+          "rebounding": 70,
+          "athleticism": 93,
+          "stamina": 76
+        },
+        "overall": 75,
+        "projected_round": 1
+      },
+      {
+        "id": "D_2027_52",
+        "name": "Kawhi Mobley",
+        "age": 20,
+        "position": "PG",
+        "archetype": "3-and-D Guard",
+        "potential": 90,
+        "ratings": {
+          "playmaking": 58,
+          "outside_scoring": 73,
+          "inside_scoring": 72,
+          "perimeter_defense": 78,
+          "interior_defense": 62,
+          "rebounding": 66,
+          "athleticism": 61,
+          "stamina": 70
+        },
+        "overall": 66,
+        "projected_round": 1
+      },
+      {
+        "id": "D_2027_53",
+        "name": "LeBron Williamson",
+        "age": 21,
+        "position": "SG",
+        "archetype": "Sharpshooter",
+        "potential": 85,
+        "ratings": {
+          "playmaking": 69,
+          "outside_scoring": 76,
+          "inside_scoring": 70,
+          "perimeter_defense": 58,
+          "interior_defense": 76,
+          "rebounding": 58,
+          "athleticism": 72,
+          "stamina": 61
+        },
+        "overall": 68,
+        "projected_round": 1
+      },
+      {
+        "id": "D_2027_54",
+        "name": "Scottie Holiday",
+        "age": 21,
+        "position": "C",
+        "archetype": "Rebound Machine",
+        "potential": 89,
+        "ratings": {
+          "playmaking": 65,
+          "outside_scoring": 65,
+          "inside_scoring": 54,
+          "perimeter_defense": 72,
+          "interior_defense": 55,
+          "rebounding": 76,
+          "athleticism": 56,
+          "stamina": 55
+        },
+        "overall": 61,
+        "projected_round": 1
+      },
+      {
+        "id": "D_2027_55",
+        "name": "Elijah Green",
+        "age": 21,
+        "position": "SF",
+        "archetype": "Athletic Slasher",
+        "potential": 80,
+        "ratings": {
+          "playmaking": 61,
+          "outside_scoring": 70,
+          "inside_scoring": 78,
+          "perimeter_defense": 67,
+          "interior_defense": 69,
+          "rebounding": 54,
+          "athleticism": 82,
+          "stamina": 69
+        },
+        "overall": 68,
+        "projected_round": 2
+      },
+      {
+        "id": "D_2027_56",
+        "name": "Kevin Ross",
+        "age": 21,
+        "position": "C",
+        "archetype": "Rebound Machine",
+        "potential": 95,
+        "ratings": {
+          "playmaking": 69,
+          "outside_scoring": 63,
+          "inside_scoring": 59,
+          "perimeter_defense": 72,
+          "interior_defense": 71,
+          "rebounding": 87,
+          "athleticism": 72,
+          "stamina": 63
+        },
+        "overall": 71,
+        "projected_round": 1
+      },
+      {
+        "id": "D_2027_57",
+        "name": "Deandre Embiid",
+        "age": 21,
+        "position": "SF",
+        "archetype": "Athletic Slasher",
+        "potential": 94,
+        "ratings": {
+          "playmaking": 77,
+          "outside_scoring": 59,
+          "inside_scoring": 79,
+          "perimeter_defense": 71,
+          "interior_defense": 61,
+          "rebounding": 63,
+          "athleticism": 86,
+          "stamina": 76
+        },
+        "overall": 70,
+        "projected_round": 1
+      },
+      {
+        "id": "D_2027_58",
+        "name": "Winston Gilgeous",
+        "age": 19,
+        "position": "C",
+        "archetype": "Rebound Machine",
+        "potential": 89,
+        "ratings": {
+          "playmaking": 60,
+          "outside_scoring": 77,
+          "inside_scoring": 76,
+          "perimeter_defense": 69,
+          "interior_defense": 58,
+          "rebounding": 85,
+          "athleticism": 72,
+          "stamina": 64
+        },
+        "overall": 74,
+        "projected_round": 1
+      },
+      {
+        "id": "D_2027_59",
+        "name": "Darnell Gilgeous",
+        "age": 21,
+        "position": "PG",
+        "archetype": "3-and-D Guard",
+        "potential": 73,
+        "ratings": {
+          "playmaking": 62,
+          "outside_scoring": 64,
+          "inside_scoring": 52,
+          "perimeter_defense": 80,
+          "interior_defense": 66,
+          "rebounding": 67,
+          "athleticism": 62,
+          "stamina": 52
+        },
+        "overall": 65,
+        "projected_round": 2
+      },
+      {
+        "id": "D_2027_60",
+        "name": "Joel Tatum",
+        "age": 19,
+        "position": "PG",
+        "archetype": "Slasher",
+        "potential": 91,
+        "ratings": {
+          "playmaking": 72,
+          "outside_scoring": 62,
+          "inside_scoring": 85,
+          "perimeter_defense": 62,
+          "interior_defense": 78,
+          "rebounding": 73,
+          "athleticism": 79,
+          "stamina": 64
+        },
+        "overall": 70,
+        "projected_round": 1
+      }
+    ]
+  }
+]

@@ -1,0 +1,35 @@
+{
+  "current_year": 2026,
+  "current_stage": "regular_season",
+  "day": 0,
+  "seasons": [],
+  "all_time_stats": {
+    "scoring_leaders": [],
+    "rebound_leaders": [],
+    "assist_leaders": []
+  },
+  "retired_jerseys": [
+    {
+      "team": "BOS",
+      "number": 33,
+      "player": "Larry Bird"
+    },
+    {
+      "team": "CHI",
+      "number": 23,
+      "player": "Michael Jordan"
+    },
+    {
+      "team": "LAL",
+      "number": 8,
+      "player": "Kobe Bryant"
+    },
+    {
+      "team": "LAL",
+      "number": 24,
+      "player": "Kobe Bryant"
+    }
+  ],
+  "hall_of_fame": [],
+  "news": "Real 2025-26 NBA teams and rosters loaded. Start a live matchup to watch the league sim."
+}

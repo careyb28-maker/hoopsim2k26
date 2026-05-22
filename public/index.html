@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hoops Sim League - Elite Manager</title>
+    <!-- Google Fonts: Inter & Outfit -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="app-container">
+        <!-- Sidebar Navigation -->
+        <aside class="sidebar">
+            <div class="sidebar-brand">
+                <div class="brand-icon">🏀</div>
+                <div class="brand-text">HOOPS<span>SIM</span></div>
+            </div>
+            
+            <nav class="sidebar-menu">
+                <button class="nav-btn active" data-tab="dashboard-tab">
+                    <span class="btn-icon">📊</span> Standings & Dashboard
+                </button>
+                <button class="nav-btn" data-tab="rosters-tab">
+                    <span class="btn-icon">👥</span> Rosters & Salaries
+                </button>
+                <button class="nav-btn" data-tab="free-agency-tab">
+                    <span class="btn-icon">🤝</span> Free Agency
+                </button>
+                <button class="nav-btn" data-tab="draft-tab">
+                    <span class="btn-icon">🗳️</span> Draft Room
+                </button>
+                <button class="nav-btn" data-tab="live-sim-tab">
+                    <span class="btn-icon">🎮</span> Live Match Simulator
+                </button>
+                <button class="nav-btn" data-tab="history-tab">
+                    <span class="btn-icon">🏅</span> Hall of Fame & History
+                </button>
+            </nav>
+            
+            <div class="sidebar-user">
+                <div class="user-avatar">GM</div>
+                <div class="user-details">
+                    <span class="user-role">General Manager</span>
+                    <span class="user-team" id="user-team-name">Select Your Team</span>
+                </div>
+            </div>
+        </aside>
+
+        <!-- Main Content Area -->
+        <main class="main-content">
+            <!-- Top Header -->
+            <header class="main-header">
+                <div class="header-left">
+                    <h1 id="page-title">League Dashboard</h1>
+                    <div class="season-badge"><span id="season-year">2026</span> Season - <span id="season-stage">Regular Season</span></div>
+                </div>
+                
+                <div class="header-right">
+                    <!-- Quick Sim Controls -->
+                    <div class="sim-controls">
+                        <button class="btn btn-secondary" id="btn-sim-day">Simulate Day</button>
+                        <button class="btn btn-primary" id="btn-sim-season">Simulate Season</button>
+                        <button class="btn btn-danger hidden" id="btn-start-playoffs">Simulate Playoffs</button>
+                        <button class="btn btn-warning hidden" id="btn-enter-offseason">Enter Offseason</button>
+                    </div>
+                </div>
+            </header>
+
+            <!-- News Ticker -->
+            <div class="news-ticker">
+                <div class="news-label">LEAGUE NEWS</div>
+                <div class="news-content">
+                    <div class="news-text" id="news-text">Welcome to the new Hoops Sim League! Click 'Simulate Day' to begin.</div>
+                </div>
+            </div>
+
+            <!-- Tab content views -->
+            <div class="tab-content">
+                <!-- 1. Dashboard & Standings Tab -->
+                <section class="tab-pane active" id="dashboard-tab">
+                    <div class="dashboard-grid">
+                        <!-- Left Panel: Standings -->
+                        <div class="card glass standings-card">
+                            <div class="card-header">
+                                <h2>League Standings</h2>
+                                <span class="card-subtitle">Regular Season Record</span>
+                            </div>
+                            <div class="card-body">
+                                <table class="table" id="standings-table">
+                                    <thead>
+                                        <tr>
+                                            <th class="text-left">Team</th>
+                                            <th>W</th>
+                                            <th>L</th>
+                                            <th>PCT</th>
+                                            <th>GB</th>
+                                            <th>Colors</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody id="standings-tbody">
+                                        <!-- Rendered dynamically -->
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+
+                        <!-- Right Panel: Stat Leaders & Schedule -->
+                        <div class="right-dashboard-column">
+                            <!-- Stat Leaders Card -->
+                            <div class="card glass leaders-card">
+                                <div class="card-header">
+                                    <h2>Stat Leaders</h2>
+                                    <div class="tab-filters">
+                                        <button class="filter-btn active" data-leader="pts">PTS</button>
+                                        <button class="filter-btn" data-leader="reb">REB</button>
+                                        <button class="filter-btn" data-leader="ast">AST</button>
+                                    </div>
+                                </div>
+                                <div class="card-body">
+                                    <div class="leaders-list" id="leaders-list">
+                                        <!-- Rendered dynamically -->
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <!-- Next Up Matches -->
+                            <div class="card glass schedule-card">
+                                <div class="card-header">
+                                    <h2>Remaining Games</h2>
+                                </div>
+                                <div class="card-body" id="schedule-body">
+                                    <!-- Rendered dynamically -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- 2. Rosters & Salaries Tab -->
+                <section class="tab-pane" id="rosters-tab">
+                    <div class="roster-controls card glass">
+                        <div class="roster-selector-wrapper">
+                            <label for="roster-team-select">Select Franchise:</label>
+                            <select id="roster-team-select" class="select-dropdown">
+                                <!-- Populated dynamically -->
+                            </select>
+                        </div>
+                        <div class="team-cap-info">
+                            <span>Cap Spent: <strong id="team-cap-spent">$0M</strong> / $140M</span>
+                            <div class="cap-bar-bg"><div class="cap-bar-fill" id="team-cap-fill" style="width: 0%;"></div></div>
+                        </div>
+                    </div>
+
+                    <div class="card glass roster-card">
+                        <div class="card-body">
+                            <table class="table" id="roster-table">
+                                <thead>
+                                    <tr>
+                                        <th class="text-left">Player</th>
+                                        <th>Pos</th>
+                                        <th>Age</th>
+                                        <th>OVR</th>
+                                        <th>POT</th>
+                                        <th>Inside</th>
+                                        <th>Outside</th>
+                                        <th>Defense</th>
+                                        <th>Traits</th>
+                                        <th>Salary</th>
+                                        <th>Years</th>
+                                    </tr>
+                                </thead>
+                                <tbody id="roster-tbody">
+                                    <!-- Populated dynamically -->
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- 3. Free Agency Tab -->
+                <section class="tab-pane" id="free-agency-tab">
+                    <div class="card glass info-banner">
+                        <p>🤝 <strong>Free Agency Rules</strong>: Bids are calculated using player traits. <em>Loyal</em> players may accept hometown discounts, while <em>Money-Motivated</em> mercenaries demand substantial premiums. Make your offers carefully based on your remaining cap space!</p>
+                    </div>
+
+                    <div class="card glass fa-card">
+                        <div class="card-header">
+                            <h2>Available Free Agents</h2>
+                            <span class="card-subtitle">Offseason negotiations</span>
+                        </div>
+                        <div class="card-body">
+                            <table class="table" id="fa-table">
+                                <thead>
+                                    <tr>
+                                        <th class="text-left">Player</th>
+                                        <th>Pos</th>
+                                        <th>Age</th>
+                                        <th>OVR</th>
+                                        <th>POT</th>
+                                        <th>Traits</th>
+                                        <th>Market Demands</th>
+                                        <th>Action</th>
+                                    </tr>
+                                </thead>
+                                <tbody id="fa-tbody">
+                                    <!-- Populated dynamically -->
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- 4. Draft Room Tab -->
+                <section class="tab-pane" id="draft-tab">
+                    <div class="draft-grid">
+                        <div class="card glass draft-order-card">
+                            <div class="card-header">
+                                <h2>Draft Order</h2>
+                                <span id="current-draft-pick-desc">Select Prospect</span>
+                            </div>
+                            <div class="card-body">
+                                <ol class="draft-order-list" id="draft-order-list">
+                                    <!-- Rendered dynamically -->
+                                </ol>
+                            </div>
+                        </div>
+                        
+                        <div class="draft-main-panel">
+                            <div class="card glass prospects-card">
+                                <div class="card-header">
+                                    <h2>Top Prospects Available</h2>
+                                </div>
+                                <div class="card-body">
+                                    <div class="prospects-grid" id="prospects-grid">
+                                        <!-- Rendered dynamically -->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- 5. Live Match Simulator Tab -->
+                <section class="tab-pane" id="live-sim-tab">
+                    <div class="watch-header">
+                        <div>
+                            <span class="eyebrow">Live Game Center</span>
+                            <h2>Pick a matchup and watch the sim unfold.</h2>
+                        </div>
+                        <div class="live-sim-setup">
+                            <div class="matchup-selector">
+                                <div class="team-select-box">
+                                    <label for="sim-team1-select">Away</label>
+                                    <select id="sim-team1-select" class="select-dropdown"></select>
+                                </div>
+                                <div class="vs-divider">at</div>
+                                <div class="team-select-box">
+                                    <label for="sim-team2-select">Home</label>
+                                    <select id="sim-team2-select" class="select-dropdown"></select>
+                                </div>
+                            </div>
+                            <button class="btn btn-primary btn-large" id="btn-start-live-sim">Start Game</button>
+                        </div>
+                    </div>
+
+                    <!-- Live Sim Arena -->
+                    <div class="live-arena hidden" id="live-arena">
+                        <div class="scoreboard-card">
+                            <div class="scoreboard-flex">
+                                <div class="scoreboard-team team-away">
+                                    <img class="scoreboard-logo" id="sim-away-logo" alt="">
+                                    <div class="team-color-dot" id="sim-away-dot"></div>
+                                    <h3 id="sim-away-name">AWAY</h3>
+                                    <div class="team-score" id="sim-away-score">0</div>
+                                </div>
+                                <div class="scoreboard-middle">
+                                    <div class="match-time" id="sim-match-time">STARTING</div>
+                                    <div class="sim-action-controls">
+                                        <button class="action-btn" id="btn-pause-sim">⏸ Pause</button>
+                                        <button class="action-btn" id="btn-skip-sim">Skip to End ⏭</button>
+                                    </div>
+                                    <div class="match-speed-control">
+                                        <button class="speed-btn active" data-speed="3500">Broadcast (3.5s)</button>
+                                        <button class="speed-btn" data-speed="900">1x</button>
+                                        <button class="speed-btn" data-speed="350">2x</button>
+                                        <button class="speed-btn" data-speed="40">Turbo</button>
+                                    </div>
+                                </div>
+                                <div class="scoreboard-team team-home">
+                                    <div class="team-score" id="sim-home-score">0</div>
+                                    <h3 id="sim-home-name">HOME</h3>
+                                    <div class="team-color-dot" id="sim-home-dot"></div>
+                                    <img class="scoreboard-logo" id="sim-home-logo" alt="">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="broadcast-grid">
+                            <div class="court-stage">
+                                <div class="arena-lights"></div>
+                                <div class="court-shell">
+                                    <div class="warmup-overlay hidden" id="warmup-overlay">
+                                        <div class="warmup-badge">🔴 LIVE PRE-GAME SHOW</div>
+                                        <div class="warmup-matchup" id="warmup-matchup-text">MATCHUP</div>
+                                        <div class="warmup-countdown" id="warmup-countdown-text">Tipoff in 5s...</div>
+                                        <button class="action-btn" id="btn-skip-warmup">Skip Warmup ⏩</button>
+                                    </div>
+                                    <div class="arena-3d" id="arena-3d"></div>
+                                    <div class="court">
+                                        <div class="court-half left">
+                                            <div class="paint"></div>
+                                            <div class="rim"></div>
+                                            <div class="three-arc"></div>
+                                        </div>
+                                        <div class="center-circle">
+                                            <span id="court-ball">●</span>
+                                        </div>
+                                        <div class="court-half right">
+                                            <div class="paint"></div>
+                                            <div class="rim"></div>
+                                            <div class="three-arc"></div>
+                                        </div>
+                                        <div class="possession-team" id="possession-team">Tipoff</div>
+                                    </div>
+                                </div>
+                                <div class="broadcast-strip">
+                                    <div>
+                                        <span class="strip-label">Latest Play</span>
+                                        <strong id="featured-play">Waiting for the opening possession.</strong>
+                                    </div>
+                                    <div class="momentum-meter">
+                                        <span id="momentum-away">Away</span>
+                                        <div class="momentum-track"><div class="momentum-fill" id="momentum-fill"></div></div>
+                                        <span id="momentum-home">Home</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Play by Play Log -->
+                            <div class="pbp-card">
+                                <div class="card-header">
+                                    <h2>Game Feed</h2>
+                                </div>
+                                <div class="card-body pbp-container" id="pbp-log-container">
+                                    <!-- Log messages pop up here -->
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Live Box Scores -->
+                        <div class="boxscore-card">
+                            <div class="card-header">
+                                <h2>Box Score</h2>
+                                <div class="boxscore-tab-filters">
+                                    <button class="filter-btn active" id="box-away-btn">Away Team</button>
+                                    <button class="filter-btn" id="box-home-btn">Home Team</button>
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <table class="table compact-table" id="boxscore-table">
+                                    <thead>
+                                        <tr>
+                                            <th class="text-left">Player</th>
+                                            <th>MIN</th>
+                                            <th>PTS</th>
+                                            <th>AST</th>
+                                            <th>REB</th>
+                                            <th>STL</th>
+                                            <th>BLK</th>
+                                            <th>TO</th>
+                                            <th>FG</th>
+                                            <th>3PT</th>
+                                            <th>FT</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody id="boxscore-tbody">
+                                        <!-- Box score rows injected -->
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- 6. History & Records Tab -->
+                <section class="tab-pane" id="history-tab">
+                    <div class="history-grid">
+                        <!-- Wall of Champions -->
+                        <div class="card glass history-card">
+                            <div class="card-header">
+                                <h2>Wall of Champions</h2>
+                                <span class="card-subtitle">League Honor Roll</span>
+                            </div>
+                            <div class="card-body">
+                                <div class="champions-list" id="champions-list">
+                                    <div class="empty-state">No seasons have been completed yet. Simulate a season to crown the first champion!</div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Retired Jersey Wall -->
+                        <div class="card glass jerseys-card">
+                            <div class="card-header">
+                                <h2>Retired Jerseys</h2>
+                                <span class="card-subtitle">Franchise Legends</span>
+                            </div>
+                            <div class="card-body">
+                                <div class="jersey-wall" id="jersey-wall">
+                                    <!-- Rendered dynamically -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Hall of Fame Induction -->
+                    <div class="card glass hof-card margin-top">
+                        <div class="card-header">
+                            <h2>Hall of Fame Inductees</h2>
+                        </div>
+                        <div class="card-body">
+                            <table class="table" id="hof-table">
+                                <thead>
+                                    <tr>
+                                        <th class="text-left">Player</th>
+                                        <th>Pos</th>
+                                        <th>GP</th>
+                                        <th>Career PTS</th>
+                                        <th>Career REB</th>
+                                        <th>Career AST</th>
+                                        <th>PPG</th>
+                                        <th>Inducted</th>
+                                    </tr>
+                                </thead>
+                                <tbody id="hof-tbody">
+                                    <tr class="empty-row"><td colspan="8" class="text-center">No legendary players have retired to the Hall of Fame yet.</td></tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </main>
+    </div>
+
+    <!-- Notification Toast -->
+    <div class="toast-container" id="toast-container"></div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
